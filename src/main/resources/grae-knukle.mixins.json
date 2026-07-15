@@ -3,7 +3,11 @@
 	"package": "noelle.grae.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"MinecraftClientMixin",
+		"InGameHudMixin",
+		"InventoryKeyMixin",
+		"ItemEntityMixin",
+		"HeldItemRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
