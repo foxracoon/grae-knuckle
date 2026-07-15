@@ -7,7 +7,10 @@
 		"InGameHudMixin",
 		"InventoryKeyMixin",
 		"ItemEntityMixin",
-		"HeldItemRendererMixin"
+		"HeldItemRendererMixin",
+		"PlayerEntityMixin",
+		"HeldItemRendererMixin",
+		"PlayerInteractionMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
